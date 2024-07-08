@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.dice-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+    border-radius: 10%;
+    position: relative;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left {
+    top: 20%;
+    left: 20%;
+}
+
+.top-right {
+    top: 20%;
+    right: 20%;
+}
+
+.middle-left {
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+.middle-right {
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+.bottom-left {
+    bottom: 20%;
+    left: 20%;
+}
+
+.bottom-right {
+    bottom: 20%;
+    right: 20%;
+}
