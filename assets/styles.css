@@ -13,7 +13,7 @@ body {
 .dice {
     width: 100px;
     height: 100px;
-    background-color: palegreen;
+    background-color: beige;
     border-radius: 10%;
     position: relative;
 }
@@ -33,33 +33,33 @@ body {
 }
 
 .top-left {
-    top: 20%;
-    left: 20%;
+    top: 15%;
+    left: 15%;
 }
 
 .top-right {
-    top: 20%;
-    right: 20%;
+    top: 15%;
+    right: 15%;
 }
 
 .middle-left {
     top: 50%;
-    left: 20%;
+    left: 15%;
     transform: translateY(-50%);
 }
 
 .middle-right {
     top: 50%;
-    right: 20%;
+    right: 15%;
     transform: translateY(-50%);
 }
 
 .bottom-left {
-    bottom: 20%;
-    left: 20%;
+    bottom: 15%;
+    left: 15%;
 }
 
 .bottom-right {
-    bottom: 20%;
-    right: 20%;
+    bottom: 15%;
+    right: 15%;
 }
